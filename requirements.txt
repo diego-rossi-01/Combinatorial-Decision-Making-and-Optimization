@@ -1,0 +1,6 @@
+z3-solver            
+numpy                
+pandas            
+json5                
+more-itertools
+mip
