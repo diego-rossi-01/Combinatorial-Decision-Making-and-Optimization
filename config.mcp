@@ -1,0 +1,20 @@
+{
+    "instances_path": "./instances/", 
+    "usage_mode": {
+        "models_to_use": ["smt", "mip"]
+    },
+    
+    "smt": {
+        "library": ["z3"],
+        "solvers": ["z3_smt"],
+        "timeout": 300, 
+        "export_folder": "export/smt"
+    },
+
+    "mip": {  
+        "library": ["mip"],
+        "mip_solvers": ["CBC"],
+        "timeout": 300,
+        "export_folder": "export/mip"
+    }
+}

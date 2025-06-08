@@ -1,0 +1,18 @@
+m = 2;
+n = 3;
+capacity = [30, 18];
+item_size = [20, 17, 6];
+dist_matrix = [|0, 21, 86, 99
+             |21, 0, 71, 80
+             |92, 71, 0, 61
+             |59, 80, 61, 0
+             |];
+original_indices = [1, 0];
+min_path = 160;
+max_path = 342;
+n_array = [1, 2, 3, 4];
+count_array = [1, 1, 1, 5];
+max_packs = 2;
+origin = 4;
+min_packs = 1;
+similars = []
