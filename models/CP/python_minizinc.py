@@ -403,10 +403,9 @@ def main(args):
     os.makedirs(output_folder, exist_ok=True)
 
     instance_files = [
-#        "inst01.dzn", 
-        "inst02.dzn",# "inst03.dzn", "inst04.dzn", "inst05.dzn",
-#        "inst06.dzn", "inst07.dzn", "inst08.dzn", "inst09.dzn", "inst10.dzn",
-#        "inst13.dzn", "inst16.dzn", "inst19.dzn",
+        "inst01.dzn", "inst02.dzn", "inst03.dzn", "inst04.dzn", "inst05.dzn",
+        "inst06.dzn", "inst07.dzn", "inst08.dzn", "inst09.dzn", "inst10.dzn",
+        "inst13.dzn", "inst16.dzn", "inst19.dzn",
     ]
 
     for filename in instance_files:
